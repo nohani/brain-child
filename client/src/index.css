@@ -1308,6 +1308,26 @@ video {
   background-color: #2a4365;
 }
 
+.hover\:bg-black-100:hover {
+  background-color: #d5d9dc;
+}
+
+.hover\:bg-red-400:hover {
+  background-color: #fc8181;
+}
+
+.hover\:bg-yellow-300:hover {
+  background-color: #faf089;
+}
+
+.hover\:bg-green-400:hover {
+  background-color: #68d391;
+}
+
+.hover\:bg-blue-400:hover {
+  background-color: #63b3ed;
+}
+
 .hover\:bg-primary-100:hover {
   background-color: #66afd9;
 }
@@ -5930,8 +5950,24 @@ video {
   width: 66.666667%;
 }
 
-.w-1\/4 {
+.w-3\/12 {
   width: 25%;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-full {
