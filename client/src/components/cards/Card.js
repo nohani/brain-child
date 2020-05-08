@@ -9,15 +9,15 @@ const Card = (props) => {
   return (
     <>
       {showModal ? (
-        <div className="fixed inset-0 justify-center less-transparent-black z-50 h-screen">
+        <div className="fixed inset-0 justify-center less-transparent-black z-20 h-screen">
           <EditCardModal setShowModal={setShowModal} card={card} />
         </div>
       ) : null}
       <div
         className={
           isDragging
-            ? 'px-2 py-1 bg-yellow-300 rounded shadow-lg my-2 text-sm'
-            : 'px-2 py-1 bg-white rounded shadow-sm my-2 text-sm'
+            ? 'px-2 py-1 bg-yellow-300 rounded shadow-lg my-2 text-sm grab-pointer transform active:rotate-10'
+            : 'px-2 py-1 bg-white rounded shadow my-2 text-sm'
         }
         onClick={() => setShowModal(true)}
       >
