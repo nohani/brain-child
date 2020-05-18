@@ -5,7 +5,7 @@ import { useMutation } from '@apollo/react-hooks';
 import { DELETE_LIST } from '../../graphql/mutations/list';
 import CardCreateForm from '../cards/CardCreateForm';
 import { Droppable, Draggable } from 'react-beautiful-dnd';
-import Icon from '../ui/Icon';
+import { Icon } from '../ui/Icon';
 import { GET_BOARD } from '../../graphql/queries/board';
 
 const List = (props) => {

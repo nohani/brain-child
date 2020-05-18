@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { useQuery, useMutation } from '@apollo/react-hooks';
 import { CREATE_BOARD } from '../../graphql/mutations/board';
 import { CURRENT_USER } from '../../graphql/queries/user';
-import Icon from '../ui/Icon';
+import { Icon } from '../ui/Icon';
 import { withRouter } from 'react-router-dom';
 
 const BoardCreateFormModal = (props) => {

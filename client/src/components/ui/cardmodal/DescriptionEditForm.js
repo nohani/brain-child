@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useMutation } from '@apollo/react-hooks';
 import { UPDATE_CARD_DESCRIPTION } from '../../../graphql/mutations/card';
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 
 const DescriptionEditForm = ({ card, closeEdit }) => {
   const [description, setDescription] = useState(card.description);

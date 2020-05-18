@@ -2,7 +2,7 @@ import React from 'react';
 import { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NavDropdown from './NavDropdown';
-import Icon from '../ui/Icon';
+import { Icon } from '../ui/Icon';
 
 const Navbar = () => {
   const [showDropdown, setShowDropdown] = useState(false);

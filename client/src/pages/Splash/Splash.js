@@ -5,6 +5,7 @@ import { ReactComponent as Organize } from './organizing.svg';
 import cards from './cards.jpg';
 import crud from './crud.jpg';
 import iphone from './iphone.png';
+import { Icon, IconBrand } from '../../components/ui/Icon';
 
 const Navbar = (props) => {
   return (
@@ -137,6 +138,47 @@ const Splash = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="p-16 bg-primary-500">
+        <div className="bg-primary-500 w-full text-white text-6xl">
+          <ul className="flex justify-between">
+            <li>
+              <a href="https://nicoleohanian.com/" target="_blank">
+                <Icon
+                  icon="globe"
+                  className="hover:opacity-75 transition duration-300"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/nohani" target="_blank">
+                <IconBrand
+                  icon="github"
+                  className="hover:opacity-75 transition duration-300"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/nicoleohanian"
+                target="_blank"
+              >
+                <IconBrand
+                  icon="linkedin"
+                  className="hover:opacity-75 transition duration-300"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://angel.co/u/nicole-ohanian" target="_blank">
+                <IconBrand
+                  icon="angellist"
+                  className="hover:opacity-75 transition duration-300"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </>

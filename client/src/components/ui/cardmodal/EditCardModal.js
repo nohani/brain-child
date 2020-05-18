@@ -3,7 +3,7 @@ import DescriptionEditForm from './DescriptionEditForm';
 import { useQuery } from '@apollo/react-hooks';
 import Labels from './Labels';
 import DueDate from './DueDate';
-import Icon from '../Icon';
+import { Icon } from '../Icon';
 import TitleEditForm from './TitleEditForm';
 import { GET_CARD } from '../../../graphql/queries/card';
 
