@@ -46,8 +46,8 @@ const Labels = ({ card, setShowLabelsModal }) => {
         <div>
           <div className="uppercase p-2 m-2">Labels</div>
           <div
-            onClick={() => {
-              setLabel('High');
+            onClick={ async () => {
+              await setLabel('High');
               updateCardLabel();
             }}
             className="p-2 w-10/12 rounded text-white font-semibold bg-red-500 m-2 text-center cursor-pointer hover:bg-red-400"
@@ -55,8 +55,8 @@ const Labels = ({ card, setShowLabelsModal }) => {
             High
           </div>
           <div
-            onClick={() => {
-              setLabel('Medium');
+            onClick={ async () => {
+              await setLabel('Medium');
               updateCardLabel();
             }}
             className="bg-yellow-400 p-2 w-10/12 rounded font-semibold m-2 text-center text-white cursor-pointer hover:bg-yellow-300"
@@ -64,8 +64,8 @@ const Labels = ({ card, setShowLabelsModal }) => {
             Medium
           </div>
           <div
-            onClick={() => {
-              setLabel('Low');
+            onClick={ async () => {
+              await setLabel('Low');
               updateCardLabel();
             }}
             className="text-center bg-blue-500 text-white rounded p-2 m-2 w-10/12 font-semibold cursor-pointer hover:bg-blue-400"
